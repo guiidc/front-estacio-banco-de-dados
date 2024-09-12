@@ -1,0 +1,32 @@
+.contentContainer {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  gap: 1rem;
+}
+
+.historicTable {
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 400px;
+
+  thead tr th {
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    text-align: left;
+    padding: 8px;
+  }
+
+  tbody tr td {
+    padding: 0.5rem;
+  }
+
+  tbody tr:nth-child(even) {
+    background-color: #dfdfdf;
+  }
+}

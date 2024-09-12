@@ -1,0 +1,12 @@
+.button {
+  padding: 0.8rem 1rem;
+  border: none;
+  background: green;
+  color: white;
+  cursor: pointer;
+
+
+  &:hover {
+    filter: brightness(0.9);
+  }
+}
